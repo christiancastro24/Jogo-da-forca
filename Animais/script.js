@@ -184,7 +184,7 @@ const escolheLetra = letra => {
     if (!acertou) {
         imagem++;
 
-        document.getElementById("forca").src = "../images/forca-"+imagem+".jpg";
+        document.getElementById("forca").src = "../images/forca-"+imagem+".png";
 
         let botao = document.getElementById(letra);
 

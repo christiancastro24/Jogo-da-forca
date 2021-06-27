@@ -1,6 +1,13 @@
+* {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Consolas', Arial, Helvetica, sans-serif;
-    background-color: #f8e8e800;
+    background: #1f4037; 
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  
+    background: linear-gradient(to right, #99f2c8, #1f4037); 
+
 }
 
 .flex-container-1 {
@@ -26,12 +33,13 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 30px;
     text-transform: uppercase;
+    color: aliceblue;
 }
 
 p {
@@ -41,22 +49,23 @@ p {
 span {
     display: flex;
     justify-content: center;
-    border-bottom: 3px solid #DC1F27;
+    border-bottom: 3px solid #ffffff;
     width: 40px;
     margin: 5px;
     padding-bottom: 10px;
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
+    color: antiquewhite;
 }
 
-button {
+button, a {
     display: flex;
     justify-content: center;
     margin: 5px;
     width: 35px;
-    padding: 10px 0;
-    background-color: #00698C;
+    padding: 7px 0;
+    background-color: #e6a823;
     color: #FFFFFF;
     border: 1px solid #00698C;
     border-radius: 5px;
@@ -66,7 +75,7 @@ button {
     text-transform: uppercase;
 }
 
-button:hover {
+button:hover, a:hover {
     background-color: #0682ac;
 }
 
@@ -87,6 +96,10 @@ button.novo-bt {
     cursor: not-allowed;
 }
 
+#forca {
+    height: 263px;
+    width: 367px;
+}
 
 .ver-dica {
     width: 9rem;
@@ -121,4 +134,9 @@ button.novo-bt {
     margin-top: -6.7rem;   
     text-align: center;
     color: seashell;
+}
+
+
+.home-btn {
+    width: 5rem;
 }

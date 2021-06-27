@@ -202,7 +202,7 @@ function escolheLetra(letra) {
         // Adiciona 1 a mais na imagem para mudar para a proxima parte que vai ser decapitada
         imagem++;
         // Chama a imagem passando a imagem inicial que é a forca, se errar, adiciona e vai surgindo o resto das imagens do boneco sendo enforcado
-        document.getElementById("forca").src = "../images/forca-"+imagem+".jpg";
+        document.getElementById("forca").src = "../images/forca-"+imagem+".png";
 
         //Chama a variavel letra
         var botao = document.getElementById(letra);
