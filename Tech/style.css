@@ -4,15 +4,19 @@
 
 body {
     font-family: 'Consolas', Arial, Helvetica, sans-serif;
-    background: #1f4037;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
 
 }
 
 .flex-container-1 {
     display: flex;
     justify-content: center;
+}
+
+.btn-win, .btn-lose {
+    color: aliceblue;
 }
 
 .flex-container-2 {
@@ -130,7 +134,6 @@ button.novo-bt {
     color: aliceblue;
 }
 
-
 #pop-up #dica-jogo {
     font-size: 16px;
     color: red;
@@ -138,7 +141,6 @@ button.novo-bt {
     text-align: center;
     color: seashell;
 }
-
 
 .home-btn {
     width: 5rem;
