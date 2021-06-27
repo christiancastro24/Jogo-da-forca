@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial;
+}
+
+body {
+    background: #43C6AC; 
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC)
+}
+
+main {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/13/25/ace-1869825_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding-top: 8rem;
+    top: 5rem;
+}
+
+h1 {
+    color: floralwhite;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.botoes {
+    margin-top: 10rem;
+}
+
+.botoes a {
+    text-decoration: none;
+    background-color: blueviolet;
+    margin-left: 1rem;
+    padding: 1rem;
+    color: antiquewhite;
+    font-size: 1.1rem;
+    border-radius: 7px;
+}
+
+.sobre {
+    margin-top: 4.5rem;
+    color: aliceblue;
+}
+
+.botoes a:hover {
+    background-color: darkorchid;
+}
