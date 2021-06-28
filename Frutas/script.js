@@ -206,6 +206,8 @@ const escolheLetra = letra => {
 
         let botao = document.createElement("button");
 
+        botao.classList.add('btn-teste')
+
         let t2 = document.createTextNode("jogar novamente");
         
         botao.appendChild(t2);
