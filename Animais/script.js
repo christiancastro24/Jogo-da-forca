@@ -102,7 +102,7 @@ verDica.addEventListener('click', () => {
         forca.style.opacity = '0.3'
         popUp.style.display = 'block'
         popUp.style.opacity = '1'
-        dicaJogo.textContent = 'O coração tem dois orifícios: um manda sangue para os pulmões e para os membros e outro bombeia para o cérebro um sangue mais fino.'
+        dicaJogo.textContent = 'Possui dois corações'
         popUp.appendChild(dicaJogo)
     }
 
@@ -110,7 +110,7 @@ verDica.addEventListener('click', () => {
         forca.style.opacity = '0.3'
         popUp.style.display = 'block'
         popUp.style.opacity = '1'
-        dicaJogo.textContent = 'Ocupando o topo da cadeia alimentar, é predador natural de diversos animais, como roedores, pássaros, lagartixas e alguns insetos.'
+        dicaJogo.textContent = 'Pode ser um animal doméstico...'
         popUp.appendChild(dicaJogo)
     }
 
